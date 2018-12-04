@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>TypeScript Integration Javascript-1</title>
+    <!-- OpenLayers CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/openlayers/dist/ol.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <table style="margin-left:30px;margin-top:30px;width:650px">
+      <tr>
+        <td colspan="3"><h1>Go To Coordinate</h1></td>
+      </tr>
+      <tr >
+        <td colspan="63"><div id="map" style="height:400px;width:100%"></div></td>
+      </tr>
+      <tr>
+        <td><b>Latitude</b></td>
+        <td><input type="text" id="lat" /></td>
+        <td><b>Longitude</b></td>
+        <td><input type="text" id="lng" /></td>
+        <td style="text-align:left;width: 100%;vertical-align: middle"><button onclick="gotoCoordinate()">Go</button></td>
+      </tr>
+    </table>
+    <!-- Jquery JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- OpenLayers CSS -->
+    <script src="node_modules/openlayers/dist/ol.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
